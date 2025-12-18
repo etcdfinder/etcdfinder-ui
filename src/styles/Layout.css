@@ -1,0 +1,21 @@
+.header {
+    background-color: var(--aws-nav-bg);
+    color: var(--aws-white);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-link {
+    color: white;
+    text-decoration: none;
+}
