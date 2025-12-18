@@ -1,0 +1,79 @@
+.key-detail-title {
+    font-size: 18px;
+    border-bottom: 1px solid #eaeded;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.detail-group {
+    margin-bottom: 20px;
+}
+
+.detail-label {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #545b64;
+}
+
+.detail-value {
+    font-size: 14px;
+}
+
+.value-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.value-editor {
+    background: #fff;
+    border: 1px solid #d5dbdb;
+    padding: 10px;
+    border-radius: 2px;
+    font-family: monospace;
+    flex: 1;
+    min-height: 80px;
+    resize: vertical;
+}
+
+.value-display {
+    background: #fafafa;
+    border: 1px solid #d5dbdb;
+    padding: 10px;
+    border-radius: 2px;
+    font-family: monospace;
+    flex: 1;
+    word-break: break-all;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-outline {
+    border: 1px solid #d5dbdb;
+}
+
+.btn-delete {
+    border: 1px solid #d5dbdb;
+    background: #fff5f5;
+    color: #b00020;
+}
+
+.btn-delete-confirm {
+    background: #b00020;
+    color: white;
+    border: 1px solid #b00020;
+}
+
+.copy-text {
+    margin-left: 5px;
+}
